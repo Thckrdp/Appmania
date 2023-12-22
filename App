@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Company Name - Play Store Reputation Management</title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Your Company Name</h1>
+        <p>Your Trusted Partner in Play Store Reputation Management</p>
+    </div>
+</header>
+
+<section id="why-choose-us">
+    <div class="container">
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Five Years of Expertise</h3>
+                <p>Benefit from our extensive five-year experience dedicated to mastering the art of Play Store reputation management.</p>
+            </div>
+            <div class="feature">
+                <h3>Proven Success</h3>
+                <p>Explore our track record of success stories where we've consistently achieved top rankings for positive reviews.</p>
+            </div>
+            <div class="feature">
+                <h3>Customized Solutions</h3>
+                <p>Every app is unique. We tailor our strategies to meet the distinct needs of your app, ensuring optimal results.</p>
+            </div>
+            <div class="feature">
+                <h3>Organic Excellence</h3>
+                <p>Our commitment to organic methods ensures sustainable, long-term success for your app's reputation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="our-services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <p>Propel positive reviews strategically to both the top 3 and top 10 positions, maximizing visibility and credibility.</p>
+        <p>From strategic planning to execution, we provide end-to-end solutions to enhance your app's online reputation organically.</p>
+        <p>Our focus is on delivering measurable results that contribute directly to the overall success of your app.</p>
+    </div>
+</section>
+
+<section id="why-now">
+    <div class="container">
+        <h2>Why Now?</h2>
+        <p>The Play Store is competitive, and positive reviews are your app's gateway to success. With our expertise, let's take your app to new heights.</p>
+        <button>Contact Us</button>
+    </div>
+</section>
+
+</body>
+</html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 4em 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 23%;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
